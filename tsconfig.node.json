@@ -18,7 +18,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@app": ["/src/app"],
+      "@assets": ["/src/assets"],
+      "@features": ["/src/features"],
+      "@shared": ["/src/shared"]
+    }
   },
   "include": ["vite.config.ts"]
 }
